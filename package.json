@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/1uweb/home.git"
+    "url": "git+https://github.com/1uweb/chemkoe-bpb.git"
   },
   "author": "Uwe Barthel",
   "license": "MIT License",
   "bugs": {
-    "url": "https://github.com/1uweb/home/issues"
+    "url": "https://github.com/1uweb/chemkoe-bpb/issues"
   },
-  "homepage": "https://github.com/1uweb/home#readme",
+  "homepage": "https://github.com/1uweb/chemkoe-bpb#readme",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.8",
     "@fortawesome/free-solid-svg-icons": "^5.5.0",
