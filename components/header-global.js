@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 const NavigationGlobal = () => (
-    <header className="global-nav">
+    <header className="global-nav" id="nav-global">
         <div className="wrapper">
             <nav className="navigation">
                 <ul>

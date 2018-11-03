@@ -105,10 +105,10 @@ button:hover
     background: #cd1739
 
 .content-container 
-    padding: 8rem 0
+    padding: 4rem 0
 
-.content-container-innen
-    margin: 4rem 0
+.content-container-img
+    margin: 8rem 0
 
 *, ::after, ::before 
     transition-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1) !important
@@ -128,6 +128,10 @@ hr
 
 html.sr .load-hidden 
     visibility: hidden
+
+video
+    width: 100%
+    height: 100%
 
 /* Content
 
@@ -291,9 +295,26 @@ html.sr .load-hidden
 
 /* Content
 
+.content h1
+    font-size: 5rem
+
+.content h2
+    font-size: 4rem
+
+.content h3
+    font-size: 3rem
+
+.content p
+    font-size: 1.4rem
+    line-height: 1.75
+
+.content ul
+    font-size: 1.4rem
+    line-height: 1.75
+
 .hero-start 
     width: 100%
-    height: 65rem
+    height: calc(75rem)
     display: block
     position: relative
 
@@ -306,10 +327,12 @@ html.sr .load-hidden
     background: linear-gradient(to bottom, transparent, #11171c)
     opacity: 1
     transition: all 0.25s cubic-bezier(0.65, 0.05, 0.36, 1)
+    z-index: 100
 
 .hero-start .img-hero-home
     width: 100%
     height: 100%
+    background: url('https://cdn.uwe-barthel.net/landing/images/heros/codesigned_wallpaper_-sun_high-01.png')
     background-position: center
     background-size: cover
     position: absolute

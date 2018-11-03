@@ -8,8 +8,8 @@ Router.onRouteChangeError = () => NProgress.done()
 
 const HeadTag = (props) => (
     <NextHead>
-        <script src="https://blog.uwe-barthel.net/cms/style/js/function.js"></script>
         <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
+        <script src="https://cdn.uwe-barthel.net/koeprojekt/style/js/move.js"></script>
         <meta charSet="UTF-8" />
         <title>Chemnitz Projekt | Uwe Barthel</title>
         <meta name="description" content="Projekt Website vom Chemnitz Projekt der Klasse R9 des Terra Nova Campus für den Wettwerb der BpB!" />
