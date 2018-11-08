@@ -7,9 +7,9 @@ const NavigationSite = () => (
             <nav>
                 <ul>
                     <li className="start"><Link href="/"><a>Start</a></Link></li>
-                    <li><Link href="#video"><a>Video</a></Link></li>
-                    <li><Link href="/bilder"><a>Bilder</a></Link></li>
-                    <li className="end"><Link href="/klasse"><a>Die Klasse</a></Link></li>
+                    <li><Link href="/infos"><a>Informationen</a></Link></li>
+                    <li><Link href="/rechtliches"><a>Rechtliches</a></Link></li>
+                    <li className="end"><Link href="https://blog.uwe-barthel.net/special"><a target="_blank">Updates</a></Link></li>
                 </ul>
             </nav>
         </div>

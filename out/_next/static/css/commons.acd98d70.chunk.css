@@ -1,0 +1,438 @@
+@import url(/static/fonts/fonts.css);
+body {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background: #11171c;
+  color: #5d5d5d;
+  font-size: 10px;
+  font-family: 'Source Sans Pro', sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  hyphens: auto;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fafafa; }
+
+* {
+  box-sizing: border-box;
+  hyphens: auto; }
+
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none; }
+
+.pace-inactive {
+  display: none; }
+
+#nprogress .bar {
+  background: #ff1a45;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 4px;
+  -webkit-box-shadow: 2px 0 4px #ff1a45;
+  box-shadow: 2px 0 4px #ff1a45; }
+
+.pace .pace-progress {
+  background: #ff1a45;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  right: 100%;
+  width: 100%;
+  height: 4px;
+  -webkit-box-shadow: 2px 0 4px #ff1a45;
+  box-shadow: 2px 0 4px #ff1a45; }
+
+::selection {
+  color: #fff;
+  background: #ff1a45;
+  text-shadow: none; }
+
+body main span {
+  padding: 1rem 2rem;
+  font-size: 1.3rem;
+  background: #ff1a45;
+  border-radius: 5rem;
+  font-weight: 700; }
+
+a {
+  text-decoration: none;
+  color: #ff1a45;
+  position: relative; }
+
+a:hover::after {
+  transform: scaleX(1); }
+
+a::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #ff1a45;
+  transition: transform 0.25s cubic-bezier(0.65, 0.05, 0.36, 1);
+  transform: scaleX(0); }
+
+.spotlight-parallax {
+  height: 60rem;
+  background: transparent; }
+
+button {
+  padding: 1.25rem 5rem;
+  background: #ff1a45;
+  border: .175rem #9b182b solid;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  color: #fff;
+  font-size: 1.7rem;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.65, 0.05, 0.36, 1); }
+
+button:hover {
+  background: #cd1739; }
+
+.content-container-recht {
+  padding: 12.5rem 0 0 0; }
+
+.content-container {
+  padding: 4rem 0; }
+
+.content-container-img {
+  margin: 8rem 0; }
+
+*, ::after, ::before {
+  transition-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1) !important;
+  animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1) !important; }
+
+.cc-window.cc-floating.cc-type-info.cc-theme-edgeless.cc-bottom.cc-right.cc-color-override-2003282644 a::after {
+  content: none; }
+
+.wrapper {
+  max-width: 128rem;
+  margin: 0 auto;
+  padding: 0 1rem; }
+
+hr {
+  width: 5rem;
+  opacity: .25; }
+
+html.sr .load-hidden {
+  visibility: hidden; }
+
+video {
+  width: 100%;
+  height: 100%; }
+
+/* Content */
+.global-nav {
+  width: 100%;
+  height: 5rem;
+  background: #18222a;
+  display: block;
+  position: fixed;
+  line-height: 5rem;
+  font-size: 1.4rem;
+  transition: all 0.25s cubic-bezier(0.65, 0.05, 0.36, 1);
+  z-index: 1000;
+  font-weight: 600;
+  top: 0;
+  z-index: 500; }
+
+.logo-global {
+  width: 93.77px;
+  height: 3rem;
+  background: url("https://cdn.uwe-barthel.net/global/images/logos/schriftzug-w.png");
+  background-size: cover;
+  background-position: center;
+  float: right;
+  margin: 1rem 0; }
+
+.logo-global::after {
+  content: none; }
+
+.global-nav .span-header {
+  padding: 0 2rem;
+  font-size: 2rem;
+  float: right;
+  color: #fafafa;
+  transition: all 0.25s cubic-bezier(0.65, 0.05, 0.36, 1); }
+
+.global-nav .span-header:hover {
+  opacity: .5; }
+
+.global-nav .span-header::after {
+  content: none; }
+
+.global-nav nav {
+  float: left; }
+
+.global-nav nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+.global-nav nav ul .start {
+  margin-left: 0; }
+
+.global-nav nav ul .end {
+  margin-right: 0; }
+
+.global-nav nav ul li {
+  margin: 0 2.5rem; }
+
+.global-nav nav ul li a {
+  color: #fafafa;
+  transition: all 0.25s cubic-bezier(0.65, 0.05, 0.36, 1); }
+
+.global-nav nav ul li a:hover {
+  opacity: .5; }
+
+.global-nav nav ul li a::after {
+  content: none; }
+
+.site-nav {
+  width: 100%;
+  height: 7rem;
+  background: #1b2730;
+  display: block;
+  position: fixed;
+  line-height: 7rem;
+  font-size: 1.4rem;
+  transition: all 0.25s cubic-bezier(0.65, 0.05, 0.36, 1);
+  z-index: 1000;
+  font-weight: 600;
+  top: 5rem;
+  z-index: 1500; }
+
+.site-nav .text-site {
+  float: left;
+  color: #fafafa;
+  font-size: 2rem;
+  font-weight: 700;
+  transition: all 0.25s cubic-bezier(0.65, 0.05, 0.36, 1); }
+
+.site-nav .text-site:hover {
+  opacity: .5; }
+
+.site-nav .text-site::after {
+  content: none; }
+
+.site-nav nav {
+  float: right; }
+
+.site-nav nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+.site-nav nav ul .start {
+  margin-left: 0; }
+
+.site-nav nav ul .end {
+  margin-right: 0; }
+
+.site-nav nav ul li {
+  margin: 0 2.5rem; }
+
+.site-nav nav ul li a {
+  color: #fafafa;
+  transition: all 0.25s cubic-bezier(0.65, 0.05, 0.36, 1); }
+
+.site-nav nav ul li a:hover {
+  opacity: .5; }
+
+.site-nav nav ul li a i {
+  color: #ff1a45;
+  font-size: 2rem;
+  padding: 0 .5rem 0 0; }
+
+.site-nav nav ul li a::after {
+  content: none; }
+
+.scrollUp-global {
+  top: -5rem; }
+
+.scrollUp-global-m {
+  top: -5rem; }
+
+.scrollUp-site {
+  top: 0; }
+
+.hamburger-inner, .hamburger-inner::after, .hamburger-inner::before {
+  background: #fafafa; }
+
+.hamburger:hover {
+  background: transparent; }
+
+.mobile {
+  display: none; }
+
+.global-mobile {
+  width: 100%;
+  height: 5.5rem;
+  background: #18222a;
+  display: block;
+  position: fixed;
+  font-size: 1.4rem;
+  transition: all 0.25s cubic-bezier(0.65, 0.05, 0.36, 1);
+  font-weight: 600;
+  z-index: 500; }
+
+/* Content */
+.content h1 {
+  font-size: 4rem; }
+
+.content h2 {
+  font-size: 3rem; }
+
+.content h3 {
+  font-size: 2.5rem; }
+
+.content p {
+  font-size: 1.4rem;
+  line-height: 1.75; }
+
+.content ul {
+  font-size: 1.4rem;
+  line-height: 1.75; }
+
+.hero-start {
+  width: 100%;
+  height: calc(75rem);
+  display: block;
+  position: relative; }
+
+.hero-start .gradient {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+  background: linear-gradient(to bottom, transparent, #11171c);
+  opacity: 1;
+  transition: all 0.25s cubic-bezier(0.65, 0.05, 0.36, 1);
+  z-index: 100; }
+
+.hero-start .img-hero-home {
+  width: 100%;
+  height: 100%;
+  background: url("https://cdn.uwe-barthel.net/landing/images/projekte/terra-nova-campus/19_terra-nova-campus-chemnitz_haenel-furkert-architekten_daehne-architekten-094f7c3151f32259.jpeg");
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 0; }
+
+.hero-start .img-hero-info {
+  width: 100%;
+  height: 100%;
+  background: url("https://cdn.uwe-barthel.net/landing/images/projekte/terra-nova-campus/entdecker-schule-drone.jpeg");
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 0; }
+
+.hero-start .text-hero {
+  position: relative;
+  text-align: center;
+  padding: 29.15rem 0;
+  z-index: 125; }
+
+.hero-start .text-hero .t-hero {
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding: 1rem 0;
+  color: #c6c6c6; }
+
+.hero-start .text-hero hr {
+  width: 10rem; }
+
+.hero-start .text-hero .h-hero {
+  font-size: 4rem;
+  margin: 0;
+  padding: 1rem 0; }
+
+.hero-start .text-hero .s-hero {
+  font-size: 2rem;
+  color: #808080;
+  margin: 0;
+  padding: 1rem 0;
+  font-weight: 600;
+  text-transform: uppercase; }
+
+/* Footer */
+footer .social-nav {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 5rem;
+  line-height: 5rem;
+  font-size: 2.5rem;
+  background: #18222a;
+  font-weight: 300; }
+
+footer .social-nav nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+footer .social-nav nav ul li {
+  margin: 0 2.5rem; }
+
+footer .social-nav nav ul li a::after {
+  content: none; }
+
+footer .social-nav nav ul li a {
+  transition: all 0.25s cubic-bezier(0.65, 0.05, 0.36, 1); }
+
+footer .social-nav nav ul li a:hover {
+  opacity: .5; }
+
+footer .legal-nav {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 7.5rem;
+  line-height: 7.5rem;
+  font-size: 1.4rem;
+  background: #101921;
+  font-weight: 500;
+  color: #fafafa; }
+
+footer .legal-nav .copyright {
+  float: left; }
+
+footer .legal-nav nav {
+  float: right; }
+
+footer .legal-nav nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+footer .legal-nav nav ul li {
+  margin: 0 1rem; }
+
+footer .legal-nav nav ul li a {
+  color: #fafafa; }
+
+footer .legal-nav nav ul li a::after {
+  background: #fafafa; }
+

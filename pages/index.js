@@ -15,9 +15,12 @@ const Index = () => (
                 <section className="hero-start content-container-img">
                     <div className="gradient"></div>
                     <div className="img-hero-home"></div>
-                    <div className="text-content">
+                    <div className="text-hero">
                         <div className="wrapper">
-                            
+                            <div class="t-hero">Projekt</div>
+                            <hr></hr>
+                            <h1 class="h-hero">Schülerwettbewerb der BpB (GK Projekt)</h1>
+                            <div class="s-hero">Projektseite</div>
                         </div>
                     </div>
                 </section>
@@ -47,6 +50,7 @@ const Index = () => (
                             <li><Link href="https://www.bpb.de/lernen/schuelerwettbewerb/"><a>Schülerwettbewerb zur politischen Bildung | bpb</a></Link></li>
                             <li><Link href="https://www.bpb.de/system/files/dokument_pdf/bpb_SW_Aufgabenheft_Web_26-09-2018.pdf"><a>Aufgabenheft bpb Schülerwettbewerb 2018/2019</a></Link></li>
                         </ul>
+                        <Link href="/infos"><a><button>mehr Erfahren</button></a></Link>
                     </div>
                 </section>
             </main>

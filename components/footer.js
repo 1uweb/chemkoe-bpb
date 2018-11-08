@@ -19,8 +19,8 @@ const FooterGlobal = () => (
                 <div class="copyright">©2018 Uwe Barthel</div>
                 <nav>
                     <ul>
-                        <li><a href="/impressum">Impressum</a></li>
-                        <li><a href="/datenschutz">Datenschutz</a></li>
+                        <li><a href="/rechtliches">Impressum</a></li>
+                        <li><a href="/rechtliches">Datenschutz</a></li>
                     </ul>
                 </nav>
             </div>
